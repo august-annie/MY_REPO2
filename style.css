@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #DEDBCE;
+}
+
+/* Style Heading & Font */
+
+h2 {
+    color: black;
+    font-family: Manrope, sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 102.5px; /* 102.5% */
+    letter-spacing: 2px;
+    margin-left: 10%;
+    padding: 0;
+}
+
+h3 {
+    color: var(--Font, #FFF);
+
+    /* Body 2 */
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: right;
+    margin-right: 10%;
+}
+
+/* Style hero section */
+.hero {
+    padding-bottom: 0;
+}
+
+/* Style navigation */
+header {
+    background-color: #000;
+
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 5%;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: var(--Buttons, #FFF);
+
+    /* Body 1 */
+    font-family: Manrope, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 100px; /* 229.167% */
+    letter-spacing: 0.48px;
+}
+
+/* images */
+.containerBlock {
+    display: inline-block;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 5px;
+}
+
+/* Style footer */
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+}
